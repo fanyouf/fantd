@@ -1,3 +1,7 @@
+@import '~antd/dist/antd.css';
+.content {
+  padding:2em;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.item {
+  border: 1px solid #ccc;
 }
